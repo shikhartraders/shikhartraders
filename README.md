@@ -14,31 +14,31 @@
 ---
 
 <p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=glitch&text=ABOUT%20ME&width=800&height=120&fontSize=32&fontColor=E0F2FE&bgColor=020617" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&text=ABOUT%20ME&fontSize=26&fontColor=E0F2FE&color=0:020617,100:020617" />
 </p>
 
 I’m a **Full-Stack Web & AI Developer** focused on building  
 **modern, scalable, and visually polished products**.
 
 I specialize in:
-- Glassmorphism & gradient UI
-- Backend logic & integrations
-- AI automation & LLM tools
+- ✨ Glassmorphism & gradient UI
+- ⚙️ Backend logic & integrations
+- 🤖 AI automation & LLM tools
 
 > **Build → Learn → Improve → Ship**
 
 ---
 
 <p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=glitch&text=TECH%20STACK&width=800&height=120&fontSize=32&fontColor=E0F2FE&bgColor=020617" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&text=TECH%20STACK&fontSize=26&fontColor=E0F2FE&color=0:020617,100:020617" />
 </p>
 
-### Languages
+### 💻 Languages
 - HTML • CSS • JavaScript  
 - Python  
 - Dart  
 
-### Tools
+### ⚙️ Tools & Platforms
 - Git & GitHub  
 - Firebase  
 - AI & LLM Tools  
@@ -46,18 +46,18 @@ I specialize in:
 ---
 
 <p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=glitch&text=FEATURED%20PROJECTS&width=800&height=120&fontSize=32&fontColor=E0F2FE&bgColor=020617" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&text=FEATURED%20PROJECTS&fontSize=26&fontColor=E0F2FE&color=0:020617,100:020617" />
 </p>
 
-🔹 **shikhartraders.github.io** — Portfolio  
-🔹 **clip-cutter** — Video editing app  
+🔹 **shikhartraders.github.io** — Personal portfolio  
+🔹 **clip-cutter** — Video editing utility  
 🔹 **Proassets-website-** — Responsive website  
-🔹 **awesome-llm-apps (Fork)** — AI apps collection  
+🔹 **awesome-llm-apps (Fork)** — AI applications collection  
 
 ---
 
 <p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=glitch&text=GITHUB%20STATS&width=800&height=120&fontSize=32&fontColor=E0F2FE&bgColor=020617" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&text=GITHUB%20STATS&fontSize=26&fontColor=E0F2FE&color=0:020617,100:020617" />
 </p>
 
 <p align="center">
@@ -71,8 +71,12 @@ I specialize in:
 ---
 
 <p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=glitch&text=CONNECT&width=800&height=120&fontSize=32&fontColor=E0F2FE&bgColor=020617" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&text=CONNECT&fontSize=26&fontColor=E0F2FE&color=0:020617,100:020617" />
 </p>
 
-🌐 https://shikhartraders.github.io  
-💻 https://github.com/shikhartraders
+🌐 **Portfolio:** https://shikhartraders.github.io  
+💻 **GitHub:** https://github.com/shikhartraders  
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=100&section=footer&color=gradient" />
+</p>
