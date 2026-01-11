@@ -1,26 +1,34 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Shikhar%20Traders&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:141E30&height=220&section=header&text=Shikhar%20Traders&fontSize=42&fontColor=ffffff&animation=fadeIn" />
 </p>
 
-<h2 align="center">🚀 Full-Stack Developer | AI Tools Builder | Tech Creator</h2>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=2500&color=38BDF8&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;AI+Tools+Builder;Building+Real-World+Applications;Learning+by+Building" />
+</p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shikhartraders&label=Profile%20Views&color=blueviolet" />
-  <img src="https://img.shields.io/github/followers/shikhartraders?label=Followers&style=social" />
+  🚀 <b>Full-Stack Developer</b> | 🤖 <b>AI Tools Builder</b> | 💡 <b>Tech Creator</b>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shikhartraders&label=Profile%20Views&color=0ea5e9&style=flat" />
+  <img src="https://img.shields.io/github/followers/shikhartraders?label=Followers&style=flat&color=6366f1" />
 </p>
 
 ---
 
 ## 👋 About Me
 
-I am a passionate **Full-Stack Web & AI Developer** focused on building **practical, real-world applications**.
+I’m a **Full-Stack Web & AI Developer** focused on building **practical, real-world applications**.
 
-I enjoy combining:
-- Clean UI & UX
+I enjoy working on:
+- Clean and modern UI/UX
 - Strong backend logic
-- AI automation & tools
+- AI automation & LLM-based tools  
 
-to create products that **actually solve problems**.
+My mindset is simple:
+
+> **Build → Learn → Improve → Ship**
 
 ---
 
@@ -40,43 +48,41 @@ to create products that **actually solve problems**.
 
 ## 📌 Featured Projects
 
-### 🔹 shikhartraders.github.io  
-Personal website & portfolio
+🔹 **shikhartraders.github.io**  
+Personal website & portfolio  
 
-### 🔹 clip-cutter  
-Video cutting & editing app (Dart)
+🔹 **clip-cutter**  
+Video cutting & editing application (Dart)  
 
-### 🔹 Proassets-website-  
-Custom responsive HTML website
+🔹 **Proassets-website-**  
+Custom responsive HTML website  
 
-### 🔹 18-videos  
-HTML based video content project
+🔹 **18-videos**  
+HTML-based video content project  
 
-### 🔹 awesome-llm-apps (Fork)  
-Collection of AI & LLM applications
+🔹 **awesome-llm-apps (Fork)**  
+Collection of AI & LLM applications  
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shikhartraders&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shikhartraders&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shikhartraders&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=shikhartraders&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
 ## 🤝 Let’s Connect
 
-- 💡 Open for collaboration
-- 🚀 Always building & learning
-- 🌱 Exploring AI & scalable systems
-
-⭐ Follow for more projects & tools!
+- 🌐 Portfolio: https://shikhartraders.github.io  
+- 💻 GitHub: https://github.com/shikhartraders  
+- 📩 Open to collaboration & learning opportunities  
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=80&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=90&section=footer" />
 </p>
