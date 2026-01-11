@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shikhartraders/shikhartraders/main/banner.png" />
+</p>
 <!-- ANIMATED GRADIENT HEADER -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=Shikhar%20Traders&fontSize=42&fontColor=ffffff&animation=fadeIn&color=0:0f2027,50:203a43,100:2c5364" />
