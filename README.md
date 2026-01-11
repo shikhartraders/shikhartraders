@@ -1,13 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:141E30&height=220&section=header&text=Shikhar%20Traders&fontSize=42&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=260&text=Shikhar%20Traders&fontSize=42&fontColor=ffffff&animation=fadeIn&color=0:0f2027,50:203a43,100:2c5364" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=2500&color=38BDF8&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;AI+Tools+Builder;Building+Real-World+Applications;Learning+by+Building" />
-</p>
-
-<p align="center">
-  🚀 <b>Full-Stack Developer</b> | 🤖 <b>AI Tools Builder</b> | 💡 <b>Tech Creator</b>
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=2600&color=9AE6FF&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;AI+Tools+Builder;Glassmorphism+UI+Lover;Building+Real-World+Products" />
 </p>
 
 <p align="center">
@@ -17,55 +13,76 @@
 
 ---
 
-## 👋 About Me
+<!-- GLASS PANEL -->
+<div align="center">
 
-I’m a **Full-Stack Web & AI Developer** focused on building **practical, real-world applications**.
+### 🧊 About Me (Glass Panel)
 
-I enjoy working on:
-- Clean and modern UI/UX
-- Strong backend logic
-- AI automation & LLM-based tools  
+</div>
 
-My mindset is simple:
+> 💠 *Think of this section as a glass card floating on a gradient background.*
 
-> **Build → Learn → Improve → Ship**
+I’m a **Full-Stack Web & AI Developer** focused on building **clean, modern, and practical applications**.
+
+I enjoy combining:
+- ✨ Clean & modern UI (glass / gradient design)
+- ⚙️ Strong backend logic
+- 🤖 AI automation & LLM tools
+
+**Mindset:**  
+> *Build → Learn → Improve → Ship*
 
 ---
 
-## 🛠 Tech Stack
+<!-- GLASS PANEL -->
+<div align="center">
 
-### 💻 Languages
-- HTML, CSS, JavaScript  
+### 🛠 Tech Stack (Glass Panel)
+
+</div>
+
+#### 💻 Languages
+- HTML • CSS • JavaScript  
 - Python  
 - Dart  
 
-### ⚙ Tools & Platforms
+#### ⚙ Tools & Platforms
 - Git & GitHub  
 - Firebase  
 - AI & LLM Tools  
 
 ---
 
-## 📌 Featured Projects
+<!-- GLASS PANEL -->
+<div align="center">
+
+### 📌 Featured Projects (Glass Panel)
+
+</div>
 
 🔹 **shikhartraders.github.io**  
-Personal website & portfolio  
+*Personal website & portfolio*
 
 🔹 **clip-cutter**  
-Video cutting & editing application (Dart)  
+*Video cutting & editing app (Dart)*
 
 🔹 **Proassets-website-**  
-Custom responsive HTML website  
+*Custom responsive HTML website*
 
 🔹 **18-videos**  
-HTML-based video content project  
+*HTML based video content project*
 
 🔹 **awesome-llm-apps (Fork)**  
-Collection of AI & LLM applications  
+*Collection of AI & LLM applications*
 
 ---
 
-## 📊 GitHub Stats
+<!-- GLASS PANEL -->
+<div align="center">
+
+### 📊 GitHub Stats (Glass Panel)
+
+</div>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=shikhartraders&show_icons=true&theme=tokyonight&hide_border=true" />
@@ -77,12 +94,17 @@ Collection of AI & LLM applications
 
 ---
 
-## 🤝 Let’s Connect
+<!-- GLASS PANEL -->
+<div align="center">
+
+### 🤝 Let’s Connect (Glass Panel)
+
+</div>
 
 - 🌐 Portfolio: https://shikhartraders.github.io  
 - 💻 GitHub: https://github.com/shikhartraders  
 - 📩 Open to collaboration & learning opportunities  
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=90&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=gradient&section=footer" />
 </p>
