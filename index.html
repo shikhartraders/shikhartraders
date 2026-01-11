@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shikhar Traders | AI & Full-Stack Architect</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card-bg: rgba(25, 25, 30, 0.7);
+            --border: rgba(60, 60, 70, 0.5);
+            --accent: #8effe4; /* A vibrant, modern green-blue */
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --gradient-start: #0f2027;
+            --gradient-mid: #203a43;
+            --gradient-end: #2c5364;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        /* Animated background elements */
+        .bg-gradient-overlay {
+            position: fixed;
+            inset: 0;
+            background: radial-gradient(circle at 15% 15%, rgba(142, 255, 228, 0.1) 0%, transparent 40%),
+                        radial-gradient(circle at 85% 85%, rgba(142, 255, 228, 0.1) 0%, transparent 40%);
+            animation: moveGradient 20s infinite alternate;
+            z-index: -2;
+        }
+
+        @keyframes moveGradient {
+            0% { transform: translate(0, 0); }
+            50% { transform: translate(-20px, 20px); }
+            100% { transform: translate(0, 0); }
+        }
+
+        /* Glass effect for cards */
+        .glass-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 35px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glass-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(13, 17, 23, 0.6); /* Slightly darker for contrast */
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+        }
+
+        /* Hero Section */
+        header {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero-pretitle {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.9rem;
+            color: var(--accent);
+            margin-bottom: 15px;
+            opacity: 0; /* Hidden for animation */
+            animation: fadeIn 1s ease-out forwards;
+            animation-delay: 1s;
+        }
+
+        .hero-title {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            line-height: 1.1;
+            margin-bottom: 25px;
+            color: var(--text-primary);
+        }
+
+        .typed-text {
+            color: var(--accent);
+            border-right: 3px solid var(--accent);
+            padding-right: 5px;
+            animation: blink-caret 0.75s step-end infinite;
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: var(--accent); }
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            opacity: 0;
+            animation: fadeIn 1s ease-out forwards;
+            animation-delay: 1.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 0 20px;
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        /* Section Specific Styles */
+        h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            text-align: center;
+            margin-bottom: 60px;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: var(--accent);
+            margin: 15px auto 0;
+            border-radius: 2px;
+        }
+
+        /* About Section */
+        #about .glass-card {
+            grid-column: 1 / -1; /* Full width */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px;
+        }
+
+        #about p {
+            font-size: 1.15rem;
+            color: var(--text-primary);
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+
+        #about ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        #about li {
+            background: rgba(142, 255, 228, 0.1);
+            color: var(--accent);
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid rgba(142, 255, 228, 0.3);
+        }
+
+        /* Projects Section */
+        .project-card {
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            height: 100%; /* Ensure cards are same height */
+        }
+
+        .project-card h3 {
+            font-size: 1.5rem;
+            color: var(--accent);
+        }
+
+        .project-card p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            flex-grow: 1; /* Pushes button to bottom */
+        }
+
+        .project-card .github-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            transition: transform 0.2s ease;
+        }
+
+        .project-card .github-link:hover {
+            transform: translateX(5px);
+        }
+
+        /* Connect Section */
+        #connect .glass-card {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 50px;
+        }
+
+        #connect p {
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            margin-bottom: 25px;
+        }
+
+        .contact-info a {
+            display: block;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: var(--text-primary);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            margin-top: 80px;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .nav-links { display: none; } /* Hide for simplicity on mobile, or implement a hamburger menu */
+            header { height: 70vh; }
+            .hero-title { font-size: clamp(2rem, 10vw, 4rem); }
+            .hero-subtitle { font-size: 1rem; }
+            h2 { font-size: 2rem; }
+            #about .glass-card, #connect .glass-card { padding: 30px; }
+            .container { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-gradient-overlay"></div>
+
+    <nav>
+        <a href="#" class="logo">Shikhar Traders</a>
+        <div class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#connect" class="nav-link">Connect</a>
+        </div>
+    </nav>
+
+    <header>
+        <p class="hero-pretitle">Innovation through Code & Intelligence</p>
+        <h1 class="hero-title">
+            I AM <span class="typed-text"></span>
+        </h1>
+        <p class="hero-subtitle">
+            Crafting intelligent software solutions and exceptional web experiences.
+            Specializing in Full-Stack Development, AI, and intuitive UIs.
+        </p>
+    </header>
+
+    <main class="container">
+
+        <section id="about" class="glass-card">
+            <h2>About Shikhar</h2>
+            <p>
+                As a dedicated Full-Stack and AI Developer, I thrive on building robust, scalable applications
+                that are not only powerful under the hood but also delightful to use. My passion lies in
+                leveraging cutting-edge AI technologies to solve real-world problems and creating seamless digital
+                journeys.
+            </p>
+            <p>
+                My philosophy is simple: **learn, build, iterate, and deliver excellence.**
+            </p>
+            <h3>Core Skills</h3>
+            <ul>
+                <li>Python</li>
+                <li>Dart</li>
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+                <li>React / Vue</li>
+                <li>Node.js</li>
+                <li>Firebase</li>
+                <li>SQL / NoSQL</li>
+                <li>LLM Development</li>
+                <li>Machine Learning</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div id="github-projects-container" class="container">
+                <p style="text-align: center; grid-column: 1/-1; color: var(--text-secondary);">Loading projects...</p>
+            </div>
+        </section>
+
+        <section id="connect" class="glass-card">
+            <h2>Connect With Me</h2>
+            <p>
+                Ready to transform your ideas into reality? Whether it's a new project, a collaboration,
+                or just a chat about the future of tech, I'm always open to connecting.
+            </p>
+            <div class="contact-info">
+                <a href="tel:+917355969445">+91 7355969445</a>
+                <a href="mailto:shikhartraderszohomail.com">shikhartraderszohomail.com</a>
+                <a href="https://github.com/shikhartraders" target="_blank">github.com/shikhartraders</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; 2026 Shikhar Traders. All Rights Reserved. Crafted with passion.
+    </footer>
+
+    <script>
+        // Typing Animation for Hero Title
+        const typedTextElement = document.querySelector(".typed-text");
+        const words = ["SHIKHAR TRADERS.", "AN AI ARCHITECT.", "A FULL-STACK DEVELOPER."];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function type() {
+            const currentWord = words[wordIndex];
+            const currentText = isDeleting
+                ? currentWord.substring(0, charIndex - 1)
+                : currentWord.substring(0, charIndex + 1);
+
+            typedTextElement.textContent = currentText;
+
+            let typeSpeed = 100;
+
+            if (isDeleting) {
+                typeSpeed /= 2;
+            }
+
+            if (!isDeleting && charIndex === currentWord.length) {
+                typeSpeed = 1500; // Pause at end of word
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                wordIndex = (wordIndex + 1) % words.length;
+                typeSpeed = 500; // Pause before typing next word
+            }
+
+            if (isDeleting) {
+                charIndex--;
+            } else {
+                charIndex++;
+            }
+
+            setTimeout(type, typeSpeed);
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            // Start typing animation after a small delay
+            setTimeout(type, 2000); 
+
+            // GitHub Projects Fetch
+            fetch('https://api.github.com/users/shikhartraders/repos')
+                .then(response => response.json())
+                .then(repos => {
+                    const projectsContainer = document.getElementById('github-projects-container');
+                    projectsContainer.innerHTML = ''; // Clear "Loading..."
+
+                    const featuredProjects = [
+                        "clip-cutter",
+                        "Proassets-website-", // Assuming this is the exact repo name
+                        "awesome-llm-apps"
+                    ];
+
+                    const displayedRepos = repos.filter(repo => featuredProjects.includes(repo.name));
+
+                    if (displayedRepos.length === 0 && repos.length > 0) {
+                        // If specific projects not found, just show first 3 popular ones
+                        repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
+                        displayedRepos.push(...repos.slice(0, 3));
+                    } else if (displayedRepos.length === 0 && repos.length === 0) {
+                        projectsContainer.innerHTML = '<p style="text-align: center; grid-column: 1/-1; color: var(--text-secondary);">Could not load projects from GitHub or no public repos found.</p>';
+                        return;
+                    }
+
+
+                    displayedRepos.forEach(repo => {
+                        const projectCard = `
+                            <div class="glass-card project-card">
+                                <h3>${repo.name}</h3>
+                                <p>${repo.description || 'No description provided.'}</p>
+                                <a href="${repo.html_url}" target="_blank" class="github-link">View Project →</a>
+                            </div>
+                        `;
+                        projectsContainer.innerHTML += projectCard;
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching GitHub repos:', error);
+                    document.getElementById('github-projects-container').innerHTML = '<p style="text-align: center; grid-column: 1/-1; color: var(--text-secondary);">Failed to load projects. Please try again later.</p>';
+                });
+        });
+    </script>
+
+</body>
+</html>
