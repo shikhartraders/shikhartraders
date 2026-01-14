@@ -74,7 +74,7 @@ I specialize in:
   <img src="https://capsule-render.vercel.app/api?type=rect&height=70&text=CONNECT&fontSize=26&fontColor=E0F2FE&color=0:020617,100:020617" />
 </p>
 
-🌐 **Portfolio:** https://shikhartraders.github.io  
+🌐 **Portfolio:** https://shikhartraders.github.io/shikhartraders.github/  
 💻 **GitHub:** https://github.com/shikhartraders  
 
 <p align="center">
