@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&height=300&section=header&text=SHIKHAR%20TRADERS&fontSize=85&fontColor=ffffff&animation=fadeIn&fontAlignY=40&color=0:000000,25:064e3b,50:10b981,75:064e3b,100:000000" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=300&section=header&text=SHIKHAR%20PANDEY&fontSize=85&fontColor=ffffff&animation=fadeIn&fontAlignY=40&color=0:000000,25:064e3b,50:10b981,75:064e3b,100:000000" />
 </p>
 
 <p align="center">
