@@ -25,7 +25,7 @@
       <b>Current focus:</b> Autonomous LLM agents & Modern Web Architectures.
     </td>
     <td width="45%" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shikhartraders&layout=compact&theme=vision-friendly-dark&title_color=10B981&icon_color=10B981&hide_border=true&bg_color=00000000" />
+      <img src="https://i.ibb.co/DgpD0TPM/IMG-20260104-WA0005-1.jpg" />
     </td>
   </tr>
 </table>
