@@ -60,7 +60,7 @@
 <p align="center">
 <a href="https://shikhartraders.github.io/shikhartraders.github/"><img src="https://img.shields.io/badge/OFFICIAL_PORTFOLIO-022c22?style=for-the-badge&logo=googlechrome&logoColor=10B981" /></a>
 <a href="https://github.com/shikhartraders"><img src="https://img.shields.io/badge/GITHUB_PROFILE-022c22?style=for-the-badge&logo=github&logoColor=10B981" /></a>
-<a href="mailto:shikhartraders@gmail.com"><img src="https://img.shields.io/badge/DIRECT_EMAIL-022c22?style=for-the-badge&logo=gmail&logoColor=10B981" /></a>
+<a href="mailto:no-replyshikhartraders.in"><img src="https://img.shields.io/badge/DIRECT_EMAIL-022c22?style=for-the-badge&logo=gmail&logoColor=10B981" /></a>
 </p>
 
 <p align="center">
